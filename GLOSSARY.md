@@ -1,0 +1,22 @@
+# Glossary
+
+- **Corpus:** the set of inputs a fuzzer keeps because they reach new coverage.
+- **Content addressing:** naming data by its hash.
+- **Proof-of-coverage:** paying for inputs that verifiably add coverage.
+- **TEE:** Trusted Execution Environment.
+- **Remote attestation:** a signed statement of code identity running in a TEE.
+- **zkVM:** a virtual machine that produces zero-knowledge proofs of correct execution.
+- **AVS:** Actively Validated Service (EigenLayer terminology).
+- **Differential testing:** comparing several implementations on the same input.
+- **Challenge window:** a period during which a claim can be disputed before it is final.
+- **CmpLog:** AFL++ instrumentation that logs comparison operands so the fuzzer can solve magic-value checks.
+- **Commit–reveal:** publishing a hash of data first and the data later, binding the submitter without disclosing content early.
+- **configfs-tsm:** a Linux kernel interface for requesting TEE attestation reports from inside a confidential VM.
+- **EIP-3155 trace:** a JSON-lines, per-opcode EVM execution trace format used to compare clients.
+- **Ensemble fuzzing:** running diverse fuzzers or configurations together and sharing their corpora.
+- **LLMP:** LibAFL's low-level message passing layer for exchanging testcases between fuzzer instances.
+- **Measurement:** a hash of the initial code and data of a TEE, included in its attestation report.
+- **Report data:** a guest-chosen field in an attestation report, used to bind nonces and public keys.
+- **Spot check:** re-executing a random fraction of jobs to detect cheating workers.
+- **State test:** a JSON test describing a pre-state, a transaction and the expected post-state for an EVM.
+- **TCB version:** the firmware and microcode level reported in an attestation; old versions may have known flaws.
